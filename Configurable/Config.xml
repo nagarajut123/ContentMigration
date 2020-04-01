@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!--Paths defined-->
+  <Directory>FTP</Directory>
+  <LogDirectory>FTP\LogFiles\</LogDirectory>
+  <SuccessVariable>\Success\</SuccessVariable>
+  <FailureVariable>\Failure\</FailureVariable>
+  <SystemVariable>\SystemErrors\</SystemVariable>
+  
+  <!--Tab Names-->
+  <FileTransferTab>FIle Transfer</FileTransferTab>
+  <ErrorTab>Error Files</ErrorTab>
+  
+  <!--Transferring Data-->
+  <TransferData>Transferring Data</TransferData>
+  <TransferRate>Transfer Rate</TransferRate>
+  <TransferSpeed>Transfer Speed:</TransferSpeed>
+  <TotalTransfered>No of files transfered:</TotalTransfered>
+  <TransferComplete></TransferComplete>
+  
+  <!--Error/Success/Info Messages-->
+  <DialogResult>If the Files are exists in the TargetPath,the execution will overrite.Do you want to proceed?</DialogResult>
+  <ProcessCompletion>File Transfer Process is Completed</ProcessCompletion>
+  <WarningOnTabChange>Please Complete the file transfer.</WarningOnTabChange>
+  <SourceFreeSpaceError>Please avail min 10MBm space in the Source Path</SourceFreeSpaceError>
+  <TargetFreeSpaceError>Please avail the space in the Target Path</TargetFreeSpaceError>
+  
+  <!--Validation Message-->
+  <SourcePathV>Please provide Source Path.</SourcePathV>
+  <TargetPathV>Please provide Target Path.</TargetPathV>
+  <UserNameV>Please provide Username.</UserNameV>
+  <PasswordV>Please provide Password.</PasswordV>
+  <CommonMessageV>All Textvalues are Mandatory.</CommonMessageV>
+  
+  <!--Config Values-->
+  <XMLFileName>FileTransfer.xml</XMLFileName>
+  <SourceLogFileSpaceInMB>10</SourceLogFileSpaceInMB>
+  <LogSize>15</LogSize>
+
+</config>
